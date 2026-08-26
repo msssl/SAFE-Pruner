@@ -1,0 +1,94 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Packaging and compiled artifacts
+*.egg-info/
+.eggs/
+build/
+dist/
+sdist/
+wheels/
+*.egg
+*.so
+
+# Virtual environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Credentials and local authentication
+.hf_token
+.wandb_api_key
+.*_token
+.*api_key
+credentials.json
+*.pem
+*.key
+
+# Downloaded dependencies
+/LIBERO/
+/transformers/
+
+# Models, checkpoints, and generated experiment data
+checkpoints/
+openvla_checkpoints/
+outputs/
+runs/
+logs/
+rollouts/
+wandb/
+cache/
+/data/
+/datasets/
+/src/openvla-oft/data/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+*.npy
+*.npz
+*.mp4
+*.avi
+
+# Jupyter and editor metadata
+.ipynb_checkpoints/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Local agent metadata
+.agents/
+.codex/
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.back.*
